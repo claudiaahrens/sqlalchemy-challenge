@@ -138,7 +138,7 @@ def temperatures(start, end):
     (tmin, tavg, tmax) = results[0]
     session.close()
 
-    return jsonify({'temp_min' : tmin, 'temp_avg' : tavg, 'temp_max' : tmax})
+    return jsonify({'temperature_min' : tmin, 'temperature_avg' : tavg, 'temperature_max' : tmax})
 
 # run app
 if __name__ == '__main__':
